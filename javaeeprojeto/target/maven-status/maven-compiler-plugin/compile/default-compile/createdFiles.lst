@@ -1,2 +1,6 @@
-betha\java\javaeeprojeto\JAXRSConfiguration.class
-betha\java\javaeeprojeto\resources\JavaEE8Resource.class
+betha\java\javaeeprojeto\domain\enums\Status.class
+betha\java\javaeeprojeto\MyApp.class
+betha\java\javaeeprojeto\controllers\ChamadoController.class
+betha\java\javaeeprojeto\controllers\HelloController.class
+.netbeans_automatic_build
+betha\java\javaeeprojeto\domain\Chamado.class
