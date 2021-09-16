@@ -24,16 +24,19 @@ public class ChamadoController {
     @Path("/")
     public List<Chamado> listChamado() {
         Chamado c1 = new Chamado();
+        c1.setId(1);
         c1.setAssunto("Assunto1");
         c1.setMensagem("Menssagem1");
         c1.setStatus(Status.NOVO);
 
         Chamado c2 = new Chamado();
+        c2.setId(2);
         c2.setAssunto("Assunto2");
         c2.setMensagem("Menssagem2");
         c2.setStatus(Status.PENDENTE);
 
         Chamado c3 = new Chamado();
+        c3.setId(3);
         c3.setAssunto("Assunto3");
         c3.setMensagem("Menssagem3");
         c3.setStatus(Status.FECHADO);
@@ -57,6 +60,7 @@ public class ChamadoController {
         chamado.setMensagem("Menssagem2" + id);
         chamado.setStatus(Status.PENDENTE);
 
+        System.out.println(chamado);
         return chamado;
     }
 
@@ -73,7 +77,7 @@ public class ChamadoController {
     @Path("/")
     public Response putChamado(Chamado chamado) {
         System.out.println(chamado.toString());
-        return Response.status(Response.Status.valueOf("BRUH")).build();
+        return Response.status(Response.Status.OK).build();
     }
 
     @DELETE

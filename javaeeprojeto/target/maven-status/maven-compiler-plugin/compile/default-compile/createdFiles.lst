@@ -1,6 +1,7 @@
 betha\java\javaeeprojeto\domain\enums\Status.class
+betha\java\javaeeprojeto\infra\ConexaoPostgresJDBC.class
 betha\java\javaeeprojeto\MyApp.class
 betha\java\javaeeprojeto\controllers\ChamadoController.class
+betha\java\javaeeprojeto\infra\ConexaoJDBC.class
 betha\java\javaeeprojeto\controllers\HelloController.class
-.netbeans_automatic_build
 betha\java\javaeeprojeto\domain\Chamado.class
