@@ -3,5 +3,6 @@ betha\java\javaeeprojeto\infra\ConexaoPostgresJDBC.class
 betha\java\javaeeprojeto\MyApp.class
 betha\java\javaeeprojeto\controllers\ChamadoController.class
 betha\java\javaeeprojeto\infra\ConexaoJDBC.class
+betha\java\javaeeprojeto\domain\ChamadoDAO.class
 betha\java\javaeeprojeto\controllers\HelloController.class
 betha\java\javaeeprojeto\domain\Chamado.class

@@ -4,10 +4,17 @@ package betha.java.javaeeprojeto.domain;
 //Coded by: Artur Dias
 
 import betha.java.javaeeprojeto.domain.enums.Status;
+import java.io.Serializable;
 import java.util.Objects;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-public class Chamado {
+public class Chamado implements Serializable{
 
+    private static final long serialVersionUID = 1l;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     
     private String assunto;
@@ -16,14 +23,14 @@ public class Chamado {
     
     private Status status;
 
-//    public Chamado() {
-//    }
-//
-//    public Chamado(String assunto, String mensagem, Status status) {
-//        this.assunto = assunto;
-//        this.mensagem = mensagem;
-//        this.status = status;
-//    }
+    public Chamado() {
+    }
+
+    public Chamado(String assunto, String mensagem, Status status) {
+        this.assunto = assunto;
+        this.mensagem = mensagem;
+        this.status = status;
+    }
 
     public Integer getId() {
         return id;

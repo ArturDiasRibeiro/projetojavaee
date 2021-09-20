@@ -1,3 +1,5 @@
+/* global angular */
+
 angular.module("JavaEEApp", [])
         .value("url", {
             baseUrl: ("http://localhost:8080/javaeeprojeto/rest/")
